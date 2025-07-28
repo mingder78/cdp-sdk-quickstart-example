@@ -1,5 +1,5 @@
 {
-  "name": "cdp-quickstart",
+  "name": "cdp-sdk-quickstart-example",
   "version": "1.0.0",
   "type": "module",
   "bin": {
