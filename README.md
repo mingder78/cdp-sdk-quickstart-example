@@ -1,3 +1,12 @@
+# dev
+
+```sh
+bun i
+bun run build
+bun start
+```
+
+
 # cdp-quickstart
 
 To install dependencies:
