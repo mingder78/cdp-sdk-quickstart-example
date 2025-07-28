@@ -65,6 +65,10 @@ console.log(`📦 TX confirmed: https://sepolia.basescan.org/tx/${transactionHas
 }
 
 
+function sleep(ms: number): Promise<void> {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
 async function withRetry(fn: () => Promise<any>) {
    let delay = 1000;
    while (true) {
@@ -81,4 +85,4 @@ async function withRetry(fn: () => Promise<any>) {
    }
 }
 
-withRetry(main())
+main()
